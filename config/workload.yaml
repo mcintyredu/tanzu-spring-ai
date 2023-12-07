@@ -20,4 +20,4 @@ spec:
     git:
       url: https://github.com/mcintyredu/tanzu-spring-ai
       ref:
-        branch: master
+        branch: main
