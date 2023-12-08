@@ -21,3 +21,10 @@ spec:
       url: https://github.com/mcintyredu/tanzu-spring-ai
       ref:
         branch: main
+  env:
+    - name: SPRING_AI_OPENAI_API_KEY
+      valueFrom: 
+        configMapKeyRef:
+          key: SPRING_AI_OPENAI_API_KEY
+          name: ai-config
+
